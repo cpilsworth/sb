@@ -1,1 +1,17 @@
 /* stylelint-disable no-empty-source */
+.block.fragment .default-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;    
+
+    grid-template-areas: 
+    "left right"
+    "left right";
+
+    & > .lhs {
+        grid-area: left;
+        background-color: blue;
+        color: white;
+    }
+}
