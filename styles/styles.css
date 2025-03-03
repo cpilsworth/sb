@@ -232,12 +232,12 @@ main img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(174deg) brightness(102%) contrast(102%);
 }
 
-.icon-globe {
+.icon-globe, .icon-globe-tick, .icon-network, .icon-graph {
   filter: invert(25%) sepia(22%) saturate(5744%) hue-rotate(191deg) brightness(90%) contrast(103%);
 }
 
 /* sections */
-main > .section {
+main > .section { 
   margin: 40px 0;
 }
 
