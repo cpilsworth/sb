@@ -1,5 +1,6 @@
 footer {
-  background-color: var(--light-color);
+  background-color: var(--dark-color);
+  color: white;
   font-size: var(--body-font-size-xs);
 }
 
@@ -12,6 +13,31 @@ footer .footer > div {
 footer .footer p {
   margin: 0;
 }
+
+footer .footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-bottom: 24px;
+
+  & li {
+    display: inline-block;
+    
+
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+
+    & a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 
 @media (width >= 900px) {
   footer .footer > div {
